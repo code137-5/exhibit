@@ -3,20 +3,16 @@ import React, { useEffect, useState } from 'react';
 import Iframe from 'react-iframe'
 import json from './data.json';
 import Countdown, { CountdownRenderProps } from 'react-countdown';
-import Box from '@mui/material/Box';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
-import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
-import TableSortLabel from '@mui/material/TableSortLabel';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 
 let i = 0;
+json.data.sort(() => Math.random() - 0.5);
 
 function makeRandomColor() {
     const r = Math.floor(Math.random() * 255);
