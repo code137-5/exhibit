@@ -136,6 +136,7 @@ function App() {
 							<TableRow>
 								<TableCell colSpan={5} className='desc'>
 									{json.data[i].art.desc}
+									{/* *{json.data[i].art.git} */}
 								</TableCell>
 							</TableRow>
 						</TableBody>
