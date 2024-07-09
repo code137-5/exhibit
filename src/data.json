@@ -7,14 +7,14 @@
                 "qr":"./qr/taejaehan.png"
             },
             "art":{
-                "title":"Bbouncing Balls",
+                "title":"Bouncing Balls",
                 "desc":"부딪히면 튕기는 알록달록 귀여운 공! 노말벡터(Normal Vector)를 활용하여 구(Sphere)안에서 튕기는 공을 만들었습니다. 현실의 물리세계의 중력이 그대로 작용하여 공들이 떨어지고 구(Sphere)에 닿으면 튕겨집니다.",
                 "url":"https://bouncing-balls-in-sphere.netlify.app/",
                 "git":"https://github.com/code137-5/r3f_balls",
                 "use":"마우스를 움직이면 보이는 각도를 조절할 수 있어요!"
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         },
         {
@@ -31,7 +31,7 @@
                 "use":""
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         },
         {
@@ -48,7 +48,7 @@
                 "use":"마우스를 움직여 보세요! 텍스트를 바꿔보세요!"
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         },
         {
@@ -65,7 +65,7 @@
                 "use":"카메라 앞에서 움직여보세요!"
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         },
         {
@@ -82,7 +82,7 @@
                 "use":"카메라에 손을 보여주고 손을 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         },
         {
@@ -99,7 +99,7 @@
                 "use":""
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         },
         {
@@ -116,7 +116,7 @@
                 "use":"마우스를 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         },
         {
@@ -133,7 +133,7 @@
                 "use":"마우스를 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         },
         {
@@ -150,7 +150,7 @@
                 "use":"마우스를 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         },
         {
@@ -167,7 +167,7 @@
                 "use":"마우스를 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 60000
+                "milliseconds" : 30000
             }
         }
     ]

@@ -1,7 +1,6 @@
 import './App.css'
 import React, { useEffect, useState } from 'react';
 import Iframe from 'react-iframe'
-import json from './data.json';
 import Countdown, { CountdownRenderProps } from 'react-countdown';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -10,10 +9,10 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import json from './data.json';
 
 let i = 0;
 // json.data.sort(() => Math.random() - 0.5);
-
 
 const fullscreen = (element:any) => {
 	if (element.requestFullscreen) return element.requestFullscreen()
@@ -52,7 +51,7 @@ const timerRenderer = ({ hours, minutes, seconds, completed }: CountdownRenderPr
 	);
 };
 function App() {
-	console.log('app')
+	console.log('json : ', json)
 
     const [nextUrl, setNextUrl] = useState<string>(json.data[0].art.url);
     const [nextQrImage, setNextQrImage] = useState<string>(json.data[0].artist.qr);
@@ -97,7 +96,7 @@ function App() {
 							<TableRow >
 								<TableCell colSpan={5} className='countdown'>
 									<Countdown
-										key={Date.now() + nextTimer}
+										// key={Date.now()}
 										date={Date.now() + nextTimer}
 										intervalDelay={0}
 										precision={3}
