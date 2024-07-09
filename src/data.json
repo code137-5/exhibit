@@ -7,14 +7,14 @@
                 "qr":"./qr/taejaehan.png"
             },
             "art":{
-                "title":"Circle curves",
-                "desc":"sin cos를 활용한 회전하는 커브텍스트입니다. 이것은 아주 멋있는 의미의 작품이며.. r3f로 제작되어있고 .. 어쩌고 저쩌고 sin cos를 활용한 회전하는 커브텍스트입니다. 이것은 아주 멋있는 의미의 작품이며.. r3f로 제작되어있고 .. 어쩌고 저쩌고sin cos를 활용한 회전하는 커브텍스트입니다. 이것은 아주 멋있는 의미의 작품이며.. r3f로 제작되어있고 .. 어쩌고 저쩌고sin cos를 활용한 회전하는 커브텍스트입니다. 이것은 아주 멋있는 의미의 작품이며.. r3f로 제작되어있고 .. 어쩌고 저쩌고sin cos를 활용한 회전하는 커브텍스트입니다. 이것은 아주 멋있는 의미의 작품이며.. r3f로 제작되어있고 .. 어쩌고 저쩌고",
-                "url":"https://google.com/",
-                "git":"https://github.com/code137-5/exhibit",
-                "use":"마우스를 움직여 보세요! 텍스트를 바꿔보세요!"
+                "title":"MODULABS code137.5 exhibition",
+                "desc":"Sin&Cos Curve를 활용한 회전하는 커브텍스트입니다. 커브가 서로 맞물려 돌아가고 투시에 의해 원근감이 발생합니다. MODULABS Creative Coding LAB(137.5) 전시를 축하하며 무한히 회전하는 커브를 만들었습니다.",
+                "url":"https://modulabs-code137-5-exhibition.netlify.app/",
+                "git":"https://github.com/code137-5/r3f_curve",
+                "use":""
             },
             "timer":{
-                "milliseconds" : 300000
+                "milliseconds" : 180000
             }
         },
         {
@@ -31,7 +31,7 @@
                 "use":"마우스를 움직여 보세요! 텍스트를 바꿔보세요!"
             },
             "timer":{
-                "milliseconds" : 300000
+                "milliseconds" : 180000
             }
         },
         {
@@ -48,7 +48,7 @@
                 "use":"카메라 앞에서 움직여보세요!"
             },
             "timer":{
-                "milliseconds" : 300000
+                "milliseconds" : 180000
             }
         },
         {
@@ -65,7 +65,7 @@
                 "use":"카메라에 손을 보여주고 손을 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 300000
+                "milliseconds" : 180000
             }
         },
         {
@@ -82,7 +82,7 @@
                 "use":""
             },
             "timer":{
-                "milliseconds" : 300000
+                "milliseconds" : 180000
             }
         },
         {
@@ -99,7 +99,7 @@
                 "use":"마우스를 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 300000
+                "milliseconds" : 180000
             }
         },
         {
@@ -116,7 +116,7 @@
                 "use":"마우스를 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 300000
+                "milliseconds" : 180000
             }
         },
         {
@@ -133,7 +133,7 @@
                 "use":"마우스를 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 300000
+                "milliseconds" : 180000
             }
         },
         {
@@ -150,7 +150,7 @@
                 "use":"마우스를 움직여 보세요!"
             },
             "timer":{
-                "milliseconds" : 300000
+                "milliseconds" : 180000
             }
         }
     ]

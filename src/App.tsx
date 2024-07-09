@@ -12,7 +12,21 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
 let i = 0;
-json.data.sort(() => Math.random() - 0.5);
+// json.data.sort(() => Math.random() - 0.5);
+
+
+const fullscreen = (element:any) => {
+	if (element.requestFullscreen) return element.requestFullscreen()
+	if (element.webkitRequestFullscreen) return element.webkitRequestFullscreen()
+	if (element.mozRequestFullScreen) return element.mozRequestFullScreen()
+	if (element.msRequestFullscreen) return element.msRequestFullscreen()
+  }
+  
+const container = document.getElementById('root')
+document.addEventListener('click', e => {
+	console.log("click")
+	// fullscreen(container)
+})
 
 function makeRandomColor() {
     const r = Math.floor(Math.random() * 255);
@@ -77,7 +91,7 @@ function App() {
 					position="relative"/>
 			<div className='art-desc' >
 
-				<TableContainer component={Paper} >
+				<TableContainer component={Paper} className='desc-table-con'>
 					<Table sx={{ minWidth: 700 }} className='desc-table'>
 						<TableHead>
 							<TableRow >
@@ -91,11 +105,20 @@ function App() {
 									/>
 								</TableCell>
 							</TableRow>
-							<TableRow>
-								<TableCell colSpan={5} className='use' style={{color:color}}>
-									{json.data[i].art.use}
-								</TableCell>
-							</TableRow>
+
+							{
+								json.data[i].art.use !== ''
+
+								?
+									<TableRow>
+										<TableCell colSpan={5} className='use' style={{color:color}}>
+											{json.data[i].art.use}
+										</TableCell>
+									</TableRow>
+								:
+									<></>
+							}
+							
 						</TableHead>
 						<TableBody>
 							<TableRow>
