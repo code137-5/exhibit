@@ -12,14 +12,7 @@ import Paper from '@mui/material/Paper';
 import json from './data.json';
 
 let i = 0;
-// json.data.sort(() => Math.random() - 0.5);
-
-// const fullscreen = (element:any) => {
-// 	if (element.requestFullscreen) return element.requestFullscreen()
-// 	if (element.webkitRequestFullscreen) return element.webkitRequestFullscreen()
-// 	if (element.mozRequestFullScreen) return element.mozRequestFullScreen()
-// 	if (element.msRequestFullscreen) return element.msRequestFullscreen()
-// }
+json.data.sort(() => Math.random() - 0.5);
 
 function toggleFullScreen(element) {
 	if (!document.fullscreenElement) {
@@ -43,8 +36,6 @@ document.addEventListener('click', e => {
 	toggleFullScreen(container)
 })
 
-
-
 const timerRenderer = ({ hours, minutes, seconds, completed }: CountdownRenderProps) => {
 	if (completed) {
 	  // Render a completed state
@@ -67,8 +58,7 @@ function App() {
     const [nextUrl, setNextUrl] = useState<string>(json.data[0].art.url);
     const [nextQrImage, setNextQrImage] = useState<string>(json.data[0].artist.qr);
     const [nextTimer, setNextTimer] = useState<number>(json.data[0].timer.milliseconds);
-    const [color, setColor] = useState<string>('rgb(0,0,0)');
-	
+
 	useEffect(()=>{
 		setTimeout(() => {
 			i++;
@@ -81,23 +71,10 @@ function App() {
 		}, nextTimer+2000);
 	},[nextUrl])
 
-	function makeRandomColor() {
-		const r = Math.floor(Math.random() * 255);
-		const g = Math.floor(Math.random() * 255);
-		const b = Math.floor(Math.random() * 255);
-		return `rgb(${r},${g},${b})`;
-	}
-
-	useEffect(()=>{
-		setTimeout(() => {
-			const col = makeRandomColor();
-			setColor(col);
-		}, 5000);
-	},[color])
-
 	const crntTimer = useMemo(() => {
 		return nextTimer
 	}, [nextTimer]);
+
 	return (
 		<>
 			<Iframe url={nextUrl}
@@ -129,7 +106,7 @@ function App() {
 
 								?
 									<TableRow>
-										<TableCell colSpan={5} className='use' style={{color:color}}>
+										<TableCell colSpan={5} className='use' style={{color:'#FBA830'}}>
 											{json.data[i].art.use}
 										</TableCell>
 									</TableRow>
@@ -146,9 +123,17 @@ function App() {
 								<TableCell className='name'>
 									{json.data[i].artist.name}
 								</TableCell>
-								<TableCell className='qr'>
-									<img src={nextQrImage} alt={json.data[i].artist.name+" site"} />
-								</TableCell>
+								{
+									nextQrImage !== ''
+
+									?
+										<TableCell className='qr'>
+											<img src={nextQrImage} alt={json.data[i].artist.name+" site"} />
+										</TableCell>
+									:
+										<></>
+								}
+								
 							</TableRow>
 							
 							<TableRow>

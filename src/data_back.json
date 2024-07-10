@@ -1,0 +1,209 @@
+{
+	"data":[
+        {
+            "artist":{
+                "name":"이상헌",
+                "site":"https://andydklee.com/",
+                "qr":"./qr/andy_qr.png"
+            },
+            "art":{
+                "title":"Harmonograph Painting",
+                "desc":"펜듈럼이 만들어내는 하모노그래프 패턴을 활용한 단색 페인팅 애니메이션",
+                "url":"https://harmonograph-paint.netlify.app/",
+                "git":"https://github.com/code137-5/harmonograph-paint",
+                "use":"멍때리세요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"정범환",
+                "site":"https://bumang.tistory.com/",
+                "qr":"./qr/bumang_qr.png"
+            },
+            "art":{
+                "title":"Truth In Pendulum",
+                "desc":"끊임없이 이어지는 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼.",
+                "url":"https://truth-in-pendulum.vercel.app/",
+                "git":"https://github.com/code137-5/truth-in-pendulum",
+                "use":"보세요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"한태재",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"Bouncing Balls",
+                "desc":"부딪히면 튕기는 알록달록 귀여운 공! 노말벡터(Normal Vector)를 활용하여 구(Sphere)안에서 튕기는 공을 만들었습니다. 현실의 물리세계의 중력이 그대로 작용하여 공들이 떨어지고 구(Sphere)에 닿으면 튕겨집니다.",
+                "url":"https://bouncing-balls-in-sphere.netlify.app/",
+                "git":"https://github.com/code137-5/r3f_balls",
+                "use":"터치해서 움직이면 각도를 조절할 수 있어요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"한태재",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"MODULABS code137.5 exhibition",
+                "desc":"Sin&Cos Curve를 활용한 회전하는 커브텍스트입니다. 커브가 서로 맞물려 돌아가고 투시에 의해 원근감이 발생합니다. MODULABS Creative Coding LAB(137.5) 전시를 축하하며 무한히 회전하는 커브를 만들었습니다.",
+                "url":"https://modulabs-code137-5-exhibition.netlify.app/",
+                "git":"https://github.com/code137-5/r3f_curve",
+                "use":""
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"서지상",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"Truth in Pendulum",
+                "desc":"This is a description for the art",
+                "url":"https://naver.com",
+                "git":"https://github.com/code137-5/exhibit",
+                "use":"마우스를 움직여 보세요! 텍스트를 바꿔보세요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"정재숙",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"Truth in Pendulum",
+                "desc":"This is a description for the art",
+                "url":"https://webcamtests.com/check",
+                "git":"https://github.com/code137-5/exhibit",
+                "use":"카메라 앞에서 움직여보세요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"정범환",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"Truth in Pendulum",
+                "desc":"This is a description for the art",
+                "url":"https://google.com",
+                "git":"https://github.com/code137-5/exhibit",
+                "use":"카메라에 손을 보여주고 손을 움직여 보세요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"한태재",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"Harmonograph generator",
+                "desc":"This is a description for the art",
+                "url":"https://daum.com",
+                "git":"https://github.com/code137-5/exhibit",
+                "use":""
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"서동이",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"Truth in Pendulum",
+                "desc":"This is a description for the art",
+                "url":"https://google.com",
+                "git":"https://github.com/code137-5/exhibit",
+                "use":"마우스를 움직여 보세요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"최민성",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"Gradient Text",
+                "desc":"This is a description for the art",
+                "url":"https://facebook.com",
+                "git":"https://github.com/code137-5/exhibit",
+                "use":"마우스를 움직여 보세요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"이재상",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"Truth in Pendulum",
+                "desc":"This is a description for the art",
+                "url":"https://naver.com",
+                "git":"https://github.com/code137-5/exhibit",
+                "use":"마우스를 움직여 보세요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        },
+        {
+            "artist":{
+                "name":"이상헌",
+                "site":"https://taejaehan.com/",
+                "qr":"./qr/taejaehan.png"
+            },
+            "art":{
+                "title":"Gradient Text",
+                "desc":"This is a description for the art",
+                "url":"https://www.yahoo.com/",
+                "git":"https://github.com/code137-5/exhibit",
+                "use":"마우스를 움직여 보세요!"
+            },
+            "timer":{
+                "milliseconds" : 30000
+            }
+        }
+    ]
+	
+}
