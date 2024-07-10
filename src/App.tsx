@@ -24,7 +24,7 @@ const fullscreen = (element:any) => {
 const container = document.getElementById('root')
 document.addEventListener('click', e => {
 	console.log("click")
-	// fullscreen(container)
+	fullscreen(container)
 })
 
 
@@ -92,8 +92,7 @@ function App() {
 					className=""
 					display="block"
 					position="relative"/>
-			<div className='art-desc' >
-
+			<div className='art-desc' id="artDesc" >
 				<TableContainer component={Paper} className='desc-table-con'>
 					<Table sx={{ minWidth: 700 }} className='desc-table'>
 						<TableHead>
@@ -145,49 +144,6 @@ function App() {
 						</TableBody>
 					</Table>
 				</TableContainer>
-				{/* <table className='desc-wrap'>
-					<tr>
-						<td>
-							<Countdown
-								className='countdown'
-								key={Date.now() + nextTimer}
-								date={Date.now() + nextTimer}
-								intervalDelay={0}
-								precision={3}
-								renderer={timerRenderer}
-							/>
-						</td>
-					</tr>
-					<tr>
-						<td className='title'>
-							{json.data[i].art.title}
-						</td>
-						<td className='name'>
-
-						</td>
-						<td className='qr'>
-
-						</td>
-					</tr>
-					<tr>
-						<td className='desc'>
-							{json.data[i].art.desc}
-						</td>
-					</tr>
-				</table> */}
-				{/* <h2 className='title'>
-					{json.data[i].art.title}
-				</h2>
-				<h2 className='name'>
-					{json.data[i].artist.name}
-				</h2>
-				<div className='qr'>
-					<img src={nextQrImage} alt={json.data[i].artist.name+" site"} />
-				</div>
-				<h2 className='desc'>
-					{json.data[i].art.desc}
-				</h2> */}
-			
 			</div>
 		</>
 	)
