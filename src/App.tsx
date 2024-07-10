@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import Iframe from 'react-iframe'
 import Countdown, { CountdownRenderProps } from 'react-countdown';
 import Table from '@mui/material/Table';
@@ -27,12 +27,7 @@ document.addEventListener('click', e => {
 	// fullscreen(container)
 })
 
-function makeRandomColor() {
-    const r = Math.floor(Math.random() * 255);
-    const g = Math.floor(Math.random() * 255);
-    const b = Math.floor(Math.random() * 255);
-    return `rgb(${r},${g},${b})`;
-}
+
 
 const timerRenderer = ({ hours, minutes, seconds, completed }: CountdownRenderProps) => {
 	if (completed) {
@@ -70,6 +65,13 @@ function App() {
 		}, nextTimer+2000);
 	},[nextUrl])
 
+	function makeRandomColor() {
+		const r = Math.floor(Math.random() * 255);
+		const g = Math.floor(Math.random() * 255);
+		const b = Math.floor(Math.random() * 255);
+		return `rgb(${r},${g},${b})`;
+	}
+
 	useEffect(()=>{
 		setTimeout(() => {
 			const col = makeRandomColor();
@@ -77,7 +79,9 @@ function App() {
 		}, 5000);
 	},[color])
 
-	console.log("nextTimer : ", nextTimer)
+	const crntTimer = useMemo(() => {
+		return nextTimer
+	}, [nextTimer]);
 	return (
 		<>
 			<Iframe url={nextUrl}
@@ -96,8 +100,8 @@ function App() {
 							<TableRow >
 								<TableCell colSpan={5} className='countdown'>
 									<Countdown
-										// key={Date.now()}
-										date={Date.now() + nextTimer}
+										key={Date.now() + crntTimer}
+										date={Date.now() + crntTimer}
 										intervalDelay={0}
 										precision={3}
 										renderer={timerRenderer}
