@@ -14,17 +14,33 @@ import json from './data.json';
 let i = 0;
 // json.data.sort(() => Math.random() - 0.5);
 
-const fullscreen = (element:any) => {
-	if (element.requestFullscreen) return element.requestFullscreen()
-	if (element.webkitRequestFullscreen) return element.webkitRequestFullscreen()
-	if (element.mozRequestFullScreen) return element.mozRequestFullScreen()
-	if (element.msRequestFullscreen) return element.msRequestFullscreen()
-  }
+// const fullscreen = (element:any) => {
+// 	if (element.requestFullscreen) return element.requestFullscreen()
+// 	if (element.webkitRequestFullscreen) return element.webkitRequestFullscreen()
+// 	if (element.mozRequestFullScreen) return element.mozRequestFullScreen()
+// 	if (element.msRequestFullscreen) return element.msRequestFullscreen()
+// }
+
+function toggleFullScreen(element) {
+	if (!document.fullscreenElement) {
+	  if (element.requestFullscreen) return element.requestFullscreen()
+	  if (element.webkitRequestFullscreen)
+		return element.webkitRequestFullscreen()
+	  if (element.mozRequestFullScreen) return element.mozRequestFullScreen()
+	  if (element.msRequestFullscreen) return element.msRequestFullscreen()
+	} else {
+	  if (document.exitFullscreen) return document.exitFullscreen()
+	  if (document.webkitCancelFullscreen)
+		return document.webkitCancelFullscreen()
+	  if (document.mozCancelFullScreen) return document.mozCancelFullScreen()
+	  if (document.msExitFullscreen) return document.msExitFullscreen()
+	}
+}
   
 const container = document.getElementById('root')
 document.addEventListener('click', e => {
 	console.log("click")
-	fullscreen(container)
+	toggleFullScreen(container)
 })
 
 
