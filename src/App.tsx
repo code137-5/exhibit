@@ -10,6 +10,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import json from "./data.json";
+import { isMobile } from "react-device-detect";
 
 let i = 0;
 json.data.sort(() => Math.random() - 0.5);
@@ -31,10 +32,12 @@ function toggleFullScreen(element) {
 }
 
 const container = document.getElementById("root");
-document.addEventListener("click", (e) => {
-  console.log("click");
-  toggleFullScreen(container);
-});
+// document.addEventListener("click", (e, url) => {
+//   console.log("click");
+//   if (!isMobile) {
+//     toggleFullScreen(container);
+//   }
+// });
 
 const timerRenderer = ({
   hours,
@@ -52,7 +55,7 @@ const timerRenderer = ({
   return <span>{displayTime}초 후 다음작품으로 넘어갑니다</span>;
 };
 function App() {
-  console.log("json : ", json);
+  //   console.log("json : ", json);
 
   const [nextUrl, setNextUrl] = useState<string>(json.data[0].art.url);
   const [nextQrImage, setNextQrImage] = useState<string>(
@@ -78,6 +81,24 @@ function App() {
     return nextTimer;
   }, [nextTimer]);
 
+  function linkArtistSite(url) {
+    // console.log("linkArtistSite url : ", url);
+    if (url !== "") {
+      window.open(
+        url,
+        "_blank" // <- This is what makes it open in a new window.
+      );
+    }
+  }
+
+  if (!isMobile) {
+    document.addEventListener("click", (e, url) => {
+      //   console.log("click");
+      if (!isMobile) {
+        toggleFullScreen(container);
+      }
+    });
+  }
   return (
     <>
       <Iframe
@@ -91,11 +112,15 @@ function App() {
         position="relative"
       />
       <div className="art-desc" id="artDesc">
-        <TableContainer component={Paper} className="desc-table-con">
-          <Table sx={{ minWidth: 700 }} className="desc-table">
-            <TableHead>
+        {isMobile ? (
+          <TableContainer component={Paper} className="desc-table-con">
+            <Table sx={{ minWidth: 700 }} className="desc-table">
               <TableRow>
-                <TableCell colSpan={5} className="countdown">
+                <TableCell
+                  colSpan={5}
+                  className="countdown"
+                  style={{ padding: "10px" }}
+                >
                   <Countdown
                     key={Date.now() + crntTimer}
                     date={Date.now() + crntTimer}
@@ -105,50 +130,79 @@ function App() {
                   />
                 </TableCell>
               </TableRow>
-
-              {json.data[i].art.use !== "" ? (
-                <TableRow>
-                  <TableCell
-                    colSpan={5}
-                    className="use"
-                    style={{ color: "#FBA830" }}
-                  >
-                    {json.data[i].art.use}
-                  </TableCell>
-                </TableRow>
-              ) : (
-                <></>
-              )}
-            </TableHead>
-            <TableBody>
-              <TableRow>
-                <TableCell className="title">
+              <TableRow
+                onClick={() => linkArtistSite(json.data[i].artist.site)}
+              >
+                <TableCell className="title" style={{ textAlign: "center" }}>
                   {json.data[i].art.title}
                 </TableCell>
                 <TableCell className="name">
                   {json.data[i].artist.name}
                 </TableCell>
-                {nextQrImage !== "" ? (
-                  <TableCell className="qr">
-                    <img
-                      src={nextQrImage}
-                      alt={json.data[i].artist.name + " site"}
+              </TableRow>
+            </Table>
+          </TableContainer>
+        ) : (
+          <TableContainer component={Paper} className="desc-table-con">
+            <Table sx={{ minWidth: 700 }} className="desc-table">
+              <TableHead>
+                <TableRow>
+                  <TableCell colSpan={5} className="countdown">
+                    <Countdown
+                      key={Date.now() + crntTimer}
+                      date={Date.now() + crntTimer}
+                      intervalDelay={0}
+                      precision={3}
+                      renderer={timerRenderer}
                     />
                   </TableCell>
+                </TableRow>
+
+                {json.data[i].art.use !== "" ? (
+                  <TableRow>
+                    <TableCell
+                      colSpan={5}
+                      className="use"
+                      style={{ color: "#FBA830" }}
+                    >
+                      {json.data[i].art.use}
+                    </TableCell>
+                  </TableRow>
                 ) : (
                   <></>
                 )}
-              </TableRow>
+              </TableHead>
+              <TableBody>
+                <TableRow>
+                  <TableCell className="title">
+                    {json.data[i].art.title}
+                  </TableCell>
 
-              <TableRow>
-                <TableCell colSpan={5} className="desc">
-                  {json.data[i].art.desc}
-                  {/* *{json.data[i].art.git} */}
-                </TableCell>
-              </TableRow>
-            </TableBody>
-          </Table>
-        </TableContainer>
+                  <TableCell className="name">
+                    {json.data[i].artist.name}
+                  </TableCell>
+                  {nextQrImage !== "" ? (
+                    <TableCell className="qr">
+                      <img
+                        src={nextQrImage}
+                        alt={json.data[i].artist.name + " site"}
+                      />
+                    </TableCell>
+                  ) : (
+                    <></>
+                  )}
+                </TableRow>
+
+                <TableRow>
+                  <TableCell colSpan={5} className="desc">
+                    {json.data[i].art.desc}
+                    {/* *{json.data[i].art.git} */}
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </TableContainer>
+        )}
       </div>
     </>
   );

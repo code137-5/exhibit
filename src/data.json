@@ -163,6 +163,7 @@
         "title": "Cow Project",
         "desc": "아직 윗 박스만 완성되어 있습니다. 아래 박스 만들고 버튼 부분 수정할 예정입니다. 아기소와 어미소가 각각 풀을 향해 이동하고, 도착하면 버튼이 뜹니다. 버튼을 누르면 직접 촬영한 아기소와 어미소의 실물 영상이 플레이 됩니다.",
         "url": "https://cowproject2024.netlify.app/",
+        "git": "",
         "use": "각각 키보드의 오른쪽 방향키, 왼쪽 방향키로 이동, 마우스로 가운데 버튼 클릭"
       },
       "timer": {
@@ -172,8 +173,8 @@
     {
       "artist": {
         "name": "오준서",
-        "site": "./qr/oh.png",
-        "qr": ""
+        "site": "",
+        "qr": "./qr/oh.png"
       },
       "art": {
         "title": "Flow",
@@ -189,8 +190,8 @@
     {
       "artist": {
         "name": "오준서",
-        "site": "./qr/oh.png",
-        "qr": ""
+        "site": "",
+        "qr": "./qr/oh.png"
       },
       "art": {
         "title": "Touch",
