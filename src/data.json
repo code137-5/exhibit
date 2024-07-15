@@ -1,179 +1,277 @@
 {
-	"data":[
-        {
-            "artist":{
-                "name":"이하동",
-                "site":"",
-                "qr":""
-            },
-            "art":{
-                "title":"Gradient Text",
-                "desc":"Gradient Text",
-                "url":"https://gradienttext.netlify.app/",
-                "git":"https://github.com/code137-5/3d_gradient_text",
-                "use":""
-            },
-            "timer":{
-                "milliseconds" : 30000
-            }
-        },
-        {
-            "artist":{
-                "name":"최민성",
-                "site":"",
-                "qr":""
-            },
-            "art":{
-                "title":"Faces of the Day",
-                "desc":"파티클을 사용해서 시계와 비, 바람 등을 표현했습니다. 가운데 표시된 시계와 비가 부딫히면 튕기면서 색이 바뀌고 바람과 부딫히면 시계가 살짝 밀리며 바람의 색이 변하게 만들었습니다. ",
-                "url":"https://faceoftheday.netlify.app/",
-                "git":"https://github.com/code137-5/faceofday/tree/main",
-                "use":"1분마다 날씨가 바뀌어요"
-            },
-            "timer":{
-                "milliseconds" : 30000
-            }
-        },
-        {
-            "artist":{
-                "name":"서동이",
-                "site":"",
-                "qr":""
-            },
-            "art":{
-                "title":"Stars and a fish",
-                "desc":"별 사이를 헤엄치는 물고기",
-                "url":"https://donzwhale.vercel.app/",
-                "git":"https://github.com/code137-5/nature-of-code-example",
-                "use":""
-            },
-            "timer":{
-                "milliseconds" : 30000
-            }
-        },
-        {
-            "artist":{
-                "name":"한태재",
-                "site":"https://taejaehan.com/",
-                "qr":"./qr/taejaehan.png"
-            },
-            "art":{
-                "title":"Bouncing Balls",
-                "desc":"부딪히면 튕기는 알록달록 귀여운 공! 노말벡터(Normal Vector)를 활용하여 구(Sphere)안에서 튕기는 공을 만들었습니다. 현실의 물리세계의 중력이 그대로 작용하여 공들이 떨어지고 구(Sphere)에 닿으면 튕겨집니다.",
-                "url":"https://bouncing-balls-in-sphere.netlify.app/",
-                "git":"https://github.com/code137-5/r3f_balls",
-                "use":"터치해서 움직이면 각도를 조절할 수 있어요!"
-            },
-            "timer":{
-                "milliseconds" : 30000
-            }
-        },
-        
-        {
-            "artist":{
-                "name":"조종혁",
-                "site":"https://bumang.tistory.com/",
-                "qr":"./qr/bumang_qr.png"
-            },
-            "art":{
-                "title":"Particle Weather",
-                "desc":"파티클로 표현한 벛꽃",
-                "url":"https://particle-pi.vercel.app/",
-                "git":"https://github.com/sni424/particle",
-                "use":"아름다운 벛꽃"
-            },
-            "timer":{
-                "milliseconds" : 30000
-            }
-        },
-        {
-            "artist":{
-                "name":"정범환",
-                "site":"https://bumang.tistory.com/",
-                "qr":"./qr/bumang_qr.png"
-            },
-            "art":{
-                "title":"Truth In Pendulum",
-                "desc":"끊임없이 이어지는 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼.",
-                "url":"https://truth-in-pendulum.vercel.app/",
-                "git":"https://github.com/code137-5/truth-in-pendulum",
-                "use":"보세요!"
-            },
-            "timer":{
-                "milliseconds" : 30000
-            }
-        },
-        {
-            "artist":{
-                "name":"이상헌",
-                "site":"https://andydklee.com/",
-                "qr":"./qr/andy_qr.png"
-            },
-            "art":{
-                "title":"Harmonograph Painting",
-                "desc":"펜듈럼이 만들어내는 하모노그래프 패턴을 활용한 단색 페인팅 애니메이션",
-                "url":"https://harmonograph-paint.netlify.app/",
-                "git":"https://github.com/code137-5/harmonograph-paint",
-                "use":"멍때리세요!"
-            },
-            "timer":{
-                "milliseconds" : 30000
-            }
-        },
-        {
-            "artist":{
-                "name":"권은정",
-                "site":"https://www.instagram.com/intothejourneys/",
-                "qr":"./qr/cowproject.png"
-            },
-            "art":{
-                "title":"Cow Project",
-                "desc":"아기소와 어미소를 각각 풀이 있는 곳까지 이동시켜 보세요. 아기소와 어미소가 담긴 실제 영상을 볼 수 있어요!",
-                "url":"https://cowproject2024.netlify.app/",
-                "use":"방향 버튼을 눌러 이동 시킨 후, 가운데 나타나는 버튼을 눌러보세요!"
-            },
-            "timer":{
-                "milliseconds" : 60000
-            }
-        },
-        {
-            "artist":{
-                "name":"오준서",
-                "site":"",
-                "qr":""
-            },
-            "art":{
-                "title":"Flow",
-                "desc":"Simplex Noise로 Flow Field를 만들어봤습니다. 다양한 사이즈의 공을 겹겹이 배치해서 속도의 차이를 두었습니다.",
-                "url":"https://noc-sigma.vercel.app/chapter/3",
-                "use":"손을 사용해서 여러각도로 움직여보세요."
-            },
-            "timer":{
-                "milliseconds" : 60000
-            }
-        },
-       
-        
-        
-        
-       
-        {
-            "artist":{
-                "name":"한태재",
-                "site":"https://taejaehan.com/",
-                "qr":"./qr/taejaehan.png"
-            },
-            "art":{
-                "title":"MODULABS code137.5 exhibition",
-                "desc":"Sin&Cos Curve를 활용한 회전하는 커브텍스트입니다. 커브가 서로 맞물려 돌아가고 투시에 의해 원근감이 발생합니다. MODULABS Creative Coding LAB(137.5) 전시를 축하하며 무한히 회전하는 커브를 만들었습니다.",
-                "url":"https://modulabs-code137-5-exhibition.netlify.app/",
-                "git":"https://github.com/code137-5/r3f_curve",
-                "use":""
-            },
-            "timer":{
-                "milliseconds" : 30000
-            }
-        }
-    ]
-	
+  "data": [
+    {
+      "artist": {
+        "name": "이하동",
+        "site": "",
+        "qr": ""
+      },
+      "art": {
+        "title": "Gradient Text",
+        "desc": "Gradient Text",
+        "url": "https://gradienttext.netlify.app/",
+        "git": "https://github.com/code137-5/3d_gradient_text",
+        "use": ""
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "최민성",
+        "site": "",
+        "qr": ""
+      },
+      "art": {
+        "title": "Faces of the Day",
+        "desc": "파티클을 사용해서 시계와 비, 바람 등을 표현했습니다. 가운데 표시된 시계와 비가 부딫히면 튕기면서 색이 바뀌고 바람과 부딫히면 시계가 살짝 밀리며 바람의 색이 변하게 만들었습니다. ",
+        "url": "https://faceoftheday.netlify.app/",
+        "git": "https://github.com/code137-5/faceofday/tree/main",
+        "use": "1분마다 날씨가 바뀌어요"
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "서동이",
+        "site": "",
+        "qr": ""
+      },
+      "art": {
+        "title": "Stars and a fish",
+        "desc": "고래가 별 사이를 헤엄치는 모습을 표현했습니다. 현재 별 배경과 물고기 임시 모형만 구현된 상태입니다. 추가적으로 물고기의 형태를 잡고 머리의 방향 기준 몸통꼬리가 sin운동을 하도록 수정이 필요합니다.",
+        "url": "https://donzwhale.vercel.app/",
+        "git": "https://github.com/code137-5/nature-of-code-example",
+        "use": ""
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "한태재",
+        "site": "https://taejaehan.com/",
+        "qr": "./qr/taejaehan.png"
+      },
+      "art": {
+        "title": "Bouncing Balls",
+        "desc": "부딪히면 튕기는 알록달록 귀여운 공! 노말벡터(Normal Vector)를 활용하여 구(Sphere)안에서 튕기는 공을 만들었습니다. 현실의 물리세계의 중력이 그대로 작용하여 공들이 떨어지고 구(Sphere)에 닿으면 튕겨집니다.",
+        "url": "https://bouncing-balls-in-sphere.netlify.app/",
+        "git": "https://github.com/code137-5/r3f_balls",
+        "use": "터치해서 움직이면 각도를 조절할 수 있어요!"
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "고솔미",
+        "site": "https://hungry-cross-01d.notion.site/Resume_-fda30f92e65e4d949ca589837b707f1b?pvs=4",
+        "qr": "./qr/sol.png"
+      },
+      "art": {
+        "title": "Rain Drop Dance",
+        "desc": "Raindrop Dance(2024)는 장마에 영감을 받아 제작된 인터랙티브 아트 작품입니다. 흔들리는 텍스트와 빗방울 효과로 물속에 있는 듯한 감각을 주며, 터치나 마우스 인터랙션을 통해 텍스트를 직접 작성하고 색상을 변경할 수 있습니다.",
+        "url": "https://raindrop-typo.netlify.app",
+        "git": "https://github.com/SOL-MI/Creative_coding/tree/main/pixijs/kineticTypo_scrollV",
+        "use": "QR코드로 접속하여 텍스트를 수정할 수 있어요. 그리고 마우스 이동/터치를 해보세요!"
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "조종혁",
+        "site": "https://blog.naver.com/sni424",
+        "qr": "./qr/bumang_qr.png"
+      },
+      "art": {
+        "title": "Particle Weather",
+        "desc": "파티클로 표현한 사계절 계절이 바뀔때마다 모델링 및 배경을 변경하였습니다.",
+        "url": "https://particle-pi.vercel.app/",
+        "git": "https://github.com/sni424/particle",
+        "use": "왼쪽 상단 버튼을 클릭하면 소리를 on, off할 수 있습니다."
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "정범환",
+        "site": "https://bumang.tistory.com/",
+        "qr": "./qr/bumang_qr.png"
+      },
+      "art": {
+        "title": "Truth In Pendulum",
+        "desc": "추가작업 예정) 각각 이미지를 Animated GIF로 만들고, 씬 별로 테마음악을 넣고, 펜들럼을 꾸밀 예정입니다. 여유가 된다면 씬 하나를 더 추가할 예정입니다. 풀스크린으로 바꾸겠습니다. 끊임없이 이어지는 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼.",
+        "url": "https://truth-in-pendulum.vercel.app/",
+        "git": "https://github.com/code137-5/truth-in-pendulum",
+        "use": "헤드폰을 사용하여 소리를 들어보세요"
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "이상헌",
+        "site": "https://andydklee.com/",
+        "qr": "./qr/andy_qr.png"
+      },
+      "art": {
+        "title": "Harmonograph Painting",
+        "desc": "펜듈럼이 만들어내는 하모노그래프 패턴을 활용한 단색 페인팅 애니메이션",
+        "url": "https://harmonograph-paint.netlify.app/",
+        "git": "https://github.com/code137-5/harmonograph-paint",
+        "use": "멍때리세요!"
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "이상헌",
+        "site": "https://andydklee.com/",
+        "qr": "./qr/andy_qr.png"
+      },
+      "art": {
+        "title": "Imagen sonidos",
+        "desc": "인터렉티브 비쥬얼 사운드 아트 실시간 화상 이미지를 세그먼트화 하여 각 세그먼트의 색상을 소리로 변환, 시퀀서 방식으로 한열씩 화음으로 사운드 제너레이션",
+        "url": "https://image-sound.andydklee.com/",
+        "git": "https://github.com/code137-5/harmonograph-paint",
+        "use": "여러분의 모습이 소리로 변환됩니다. 헤드폰을 착용하여 들어보세요."
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "권은정",
+        "site": "https://www.instagram.com/intothejourneys/",
+        "qr": "./qr/cowproject.png"
+      },
+      "art": {
+        "title": "Cow Project",
+        "desc": "아직 윗 박스만 완성되어 있습니다. 아래 박스 만들고 버튼 부분 수정할 예정입니다. 아기소와 어미소가 각각 풀을 향해 이동하고, 도착하면 버튼이 뜹니다. 버튼을 누르면 직접 촬영한 아기소와 어미소의 실물 영상이 플레이 됩니다.",
+        "url": "https://cowproject2024.netlify.app/",
+        "use": "각각 키보드의 오른쪽 방향키, 왼쪽 방향키로 이동, 마우스로 가운데 버튼 클릭"
+      },
+      "timer": {
+        "milliseconds": 60000
+      }
+    },
+    {
+      "artist": {
+        "name": "오준서",
+        "site": "./qr/oh.png",
+        "qr": ""
+      },
+      "art": {
+        "title": "Flow",
+        "desc": "Simplex Noise로 Flow Field를 만들어봤습니다. 다양한 사이즈의 공을 겹겹이 배치해서 속도의 차이를 두었습니다.",
+        "url": "https://noc-sigma.vercel.app/chapter/3",
+        "git": "https://github.com/outsung/noc",
+        "use": "카메라에게 손을 보여주세요."
+      },
+      "timer": {
+        "milliseconds": 60000
+      }
+    },
+    {
+      "artist": {
+        "name": "오준서",
+        "site": "./qr/oh.png",
+        "qr": ""
+      },
+      "art": {
+        "title": "Touch",
+        "desc": "3D Text를 만들고 해당 텍스트를 클릭해 볼 수 있는 작품입니다.",
+        "url": "https://noc-sigma.vercel.app/art/touch",
+        "git": "https://github.com/outsung/noc",
+        "use": "글자 또는 블럭을 클릭해보세요."
+      },
+      "timer": {
+        "milliseconds": 60000
+      }
+    },
+
+    {
+      "artist": {
+        "name": "한태재",
+        "site": "https://taejaehan.com/",
+        "qr": "./qr/taejaehan.png"
+      },
+      "art": {
+        "title": "MODULABS code137.5 exhibition",
+        "desc": "Sin&Cos Curve를 활용한 회전하는 커브텍스트입니다. 커브가 서로 맞물려 돌아가고 투시에 의해 원근감이 발생합니다. MODULABS Creative Coding LAB(137.5) 전시를 축하하며 무한히 회전하는 커브를 만들었습니다.",
+        "url": "https://modulabs-code137-5-exhibition.netlify.app/",
+        "git": "https://github.com/code137-5/r3f_curve",
+        "use": ""
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+
+    {
+      "artist": {
+        "name": "박민욱",
+        "site": "https://parkminwook.com/",
+        "qr": ""
+      },
+      "art": {
+        "title": "Dots",
+        "desc": "랜덤하게 배치된 점들(dots) 위로 색상의 물결이 흐릅니다. 물결을 따라 점의 크기와 색상이 변화하면서 이웃한 점과 자연스럽게 어우러지는 모습을 감상해보세요.",
+        "url": "https://playfulweblab.com/dots",
+        "git": "https://codepen.io/wooknick/pen/qBGrYYZ",
+        "use": "화면을 터치해서 물결의 시작점을 설정할 수 있습니다."
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "박민욱",
+        "site": "https://parkminwook.com/",
+        "qr": ""
+      },
+      "art": {
+        "title": "Particles",
+        "desc": "무수히 많은 입자(particle)가 하나의 그림을 그립니다. 그림이 변경될 때마다 각 입자는 자신의 새로운 자리를 찾아가며 그림을 완성합니다.",
+        "url": "https://playfulweblab.com/infinite-slider-3",
+        "git": "",
+        "use": "휠을 움직여 이미지를 변경해 보세요."
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "artist": {
+        "name": "박민욱",
+        "site": "https://parkminwook.com/",
+        "qr": ""
+      },
+      "art": {
+        "title": "Wizard",
+        "desc": "다양한 색상의 번개를 불러내는 마법사입니다. 주변 공기의 흐름마저 바꿔버리는 마법사를 만나보세요.",
+        "url": "https://playfulweblab.com/wizard",
+        "git": "",
+        "use": "휠을 움직여 색상을 선택하고, 마우스를 길게 클릭해 에너지를 모아 분출하세요."
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    }
+  ]
 }
