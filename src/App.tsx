@@ -12,8 +12,22 @@ import Paper from "@mui/material/Paper";
 import json from "./data.json";
 import { isMobile } from "react-device-detect";
 
-let i = 0;
-json.data.sort(() => Math.random() - 0.5);
+let artworkIdx = 0;
+const urlPath = location.pathname;
+let sortingNum = 0;
+if (urlPath.indexOf("page1") !== -1) {
+  sortingNum = 1;
+} else if (urlPath.indexOf("page2") !== -1) {
+  sortingNum = 2;
+}
+const filterData = json.data.filter((d) => {
+  if (urlPath === "/") {
+    return true;
+  }
+  return d.sort === sortingNum;
+});
+filterData.sort(() => Math.random() - 0.5);
+console.log("filterData : ", filterData);
 
 function toggleFullScreen(element) {
   if (!document.fullscreenElement) {
@@ -40,7 +54,6 @@ const container = document.getElementById("root");
 // });
 
 const timerRenderer = ({
-  hours,
   minutes,
   seconds,
   completed,
@@ -56,24 +69,23 @@ const timerRenderer = ({
 };
 function App() {
   //   console.log("json : ", json);
-
-  const [nextUrl, setNextUrl] = useState<string>(json.data[0].art.url);
+  const [nextUrl, setNextUrl] = useState<string>(filterData[0].art.url);
   const [nextQrImage, setNextQrImage] = useState<string>(
-    json.data[0].artist.qr
+    filterData[0].artist.qr
   );
   const [nextTimer, setNextTimer] = useState<number>(
-    json.data[0].timer.milliseconds
+    filterData[0].timer.milliseconds
   );
 
   useEffect(() => {
     setTimeout(() => {
-      i++;
-      if (i > json.data.length) {
-        i = 0;
+      artworkIdx++;
+      if (artworkIdx > filterData.length) {
+        artworkIdx = 0;
       }
-      setNextUrl(json.data[i].art.url);
-      setNextQrImage(json.data[i].artist.qr);
-      setNextTimer(json.data[i].timer.milliseconds);
+      setNextUrl(filterData[artworkIdx].art.url);
+      setNextQrImage(filterData[artworkIdx].artist.qr);
+      setNextTimer(filterData[artworkIdx].timer.milliseconds);
     }, nextTimer + 2000);
   }, [nextUrl]);
 
@@ -131,13 +143,15 @@ function App() {
                 </TableCell>
               </TableRow>
               <TableRow
-                onClick={() => linkArtistSite(json.data[i].artist.site)}
+                onClick={() =>
+                  linkArtistSite(filterData[artworkIdx].artist.site)
+                }
               >
                 <TableCell className="title" style={{ textAlign: "center" }}>
-                  {json.data[i].art.title}
+                  {filterData[artworkIdx].art.title}
                 </TableCell>
                 <TableCell className="name">
-                  {json.data[i].artist.name}
+                  {filterData[artworkIdx].artist.name}
                 </TableCell>
               </TableRow>
             </Table>
@@ -158,14 +172,14 @@ function App() {
                   </TableCell>
                 </TableRow>
 
-                {json.data[i].art.use !== "" ? (
+                {filterData[artworkIdx].art.use !== "" ? (
                   <TableRow>
                     <TableCell
                       colSpan={5}
                       className="use"
                       style={{ color: "#FBA830" }}
                     >
-                      {json.data[i].art.use}
+                      {filterData[artworkIdx].art.use}
                     </TableCell>
                   </TableRow>
                 ) : (
@@ -175,17 +189,17 @@ function App() {
               <TableBody>
                 <TableRow>
                   <TableCell className="title">
-                    {json.data[i].art.title}
+                    {filterData[artworkIdx].art.title}
                   </TableCell>
 
                   <TableCell className="name">
-                    {json.data[i].artist.name}
+                    {filterData[artworkIdx].artist.name}
                   </TableCell>
                   {nextQrImage !== "" ? (
                     <TableCell className="qr">
                       <img
                         src={nextQrImage}
-                        alt={json.data[i].artist.name + " site"}
+                        alt={filterData[artworkIdx].artist.name + " site"}
                       />
                     </TableCell>
                   ) : (
@@ -195,8 +209,8 @@ function App() {
 
                 <TableRow>
                   <TableCell colSpan={5} className="desc">
-                    {json.data[i].art.desc}
-                    {/* *{json.data[i].art.git} */}
+                    {filterData[artworkIdx].art.desc}
+                    {/* *{filterData[artworkIdx].art.git} */}
                   </TableCell>
                 </TableRow>
               </TableBody>

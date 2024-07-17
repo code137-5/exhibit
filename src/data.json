@@ -1,6 +1,7 @@
 {
   "data": [
     {
+      "sort": 1,
       "artist": {
         "name": "이하동",
         "site": "",
@@ -18,40 +19,7 @@
       }
     },
     {
-      "artist": {
-        "name": "최민성",
-        "site": "",
-        "qr": ""
-      },
-      "art": {
-        "title": "Faces of the Day",
-        "desc": "파티클을 사용해서 시계와 비, 바람 등을 표현했습니다. 가운데 표시된 시계와 비가 부딫히면 튕기면서 색이 바뀌고 바람과 부딫히면 시계가 살짝 밀리며 바람의 색이 변하게 만들었습니다. ",
-        "url": "https://faceoftheday.netlify.app/",
-        "git": "https://github.com/code137-5/faceofday/tree/main",
-        "use": "1분마다 날씨가 바뀌어요"
-      },
-      "timer": {
-        "milliseconds": 30000
-      }
-    },
-    {
-      "artist": {
-        "name": "서동이",
-        "site": "",
-        "qr": ""
-      },
-      "art": {
-        "title": "Stars and a fish",
-        "desc": "고래가 별 사이를 헤엄치는 모습을 표현했습니다. 현재 별 배경과 물고기 임시 모형만 구현된 상태입니다. 추가적으로 물고기의 형태를 잡고 머리의 방향 기준 몸통꼬리가 sin운동을 하도록 수정이 필요합니다.",
-        "url": "https://donzwhale.vercel.app/",
-        "git": "https://github.com/code137-5/nature-of-code-example",
-        "use": ""
-      },
-      "timer": {
-        "milliseconds": 30000
-      }
-    },
-    {
+      "sort": 1,
       "artist": {
         "name": "한태재",
         "site": "https://taejaehan.com/",
@@ -69,6 +37,7 @@
       }
     },
     {
+      "sort": 1,
       "artist": {
         "name": "고솔미",
         "site": "https://hungry-cross-01d.notion.site/Resume_-fda30f92e65e4d949ca589837b707f1b?pvs=4",
@@ -86,40 +55,7 @@
       }
     },
     {
-      "artist": {
-        "name": "조종혁",
-        "site": "https://blog.naver.com/sni424",
-        "qr": "./qr/bumang_qr.png"
-      },
-      "art": {
-        "title": "Particle Weather",
-        "desc": "파티클로 표현한 사계절 계절이 바뀔때마다 모델링 및 배경을 변경하였습니다.",
-        "url": "https://particle-pi.vercel.app/",
-        "git": "https://github.com/sni424/particle",
-        "use": "왼쪽 상단 버튼을 클릭하면 소리를 on, off할 수 있습니다."
-      },
-      "timer": {
-        "milliseconds": 30000
-      }
-    },
-    {
-      "artist": {
-        "name": "정범환",
-        "site": "https://bumang.tistory.com/",
-        "qr": "./qr/bumang_qr.png"
-      },
-      "art": {
-        "title": "Truth In Pendulum",
-        "desc": "추가작업 예정) 각각 이미지를 Animated GIF로 만들고, 씬 별로 테마음악을 넣고, 펜들럼을 꾸밀 예정입니다. 여유가 된다면 씬 하나를 더 추가할 예정입니다. 풀스크린으로 바꾸겠습니다. 끊임없이 이어지는 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼.",
-        "url": "https://truth-in-pendulum.vercel.app/",
-        "git": "https://github.com/code137-5/truth-in-pendulum",
-        "use": "헤드폰을 사용하여 소리를 들어보세요"
-      },
-      "timer": {
-        "milliseconds": 30000
-      }
-    },
-    {
+      "sort": 1,
       "artist": {
         "name": "이상헌",
         "site": "https://andydklee.com/",
@@ -137,23 +73,7 @@
       }
     },
     {
-      "artist": {
-        "name": "이상헌",
-        "site": "https://andydklee.com/",
-        "qr": "./qr/andy_qr.png"
-      },
-      "art": {
-        "title": "Imagen sonidos",
-        "desc": "인터렉티브 비쥬얼 사운드 아트 실시간 화상 이미지를 세그먼트화 하여 각 세그먼트의 색상을 소리로 변환, 시퀀서 방식으로 한열씩 화음으로 사운드 제너레이션",
-        "url": "https://image-sound.andydklee.com/",
-        "git": "https://github.com/code137-5/harmonograph-paint",
-        "use": "여러분의 모습이 소리로 변환됩니다. 헤드폰을 착용하여 들어보세요."
-      },
-      "timer": {
-        "milliseconds": 30000
-      }
-    },
-    {
+      "sort": 1,
       "artist": {
         "name": "권은정",
         "site": "https://www.instagram.com/intothejourneys/",
@@ -171,23 +91,7 @@
       }
     },
     {
-      "artist": {
-        "name": "오준서",
-        "site": "",
-        "qr": "./qr/oh.png"
-      },
-      "art": {
-        "title": "Flow",
-        "desc": "Simplex Noise로 Flow Field를 만들어봤습니다. 다양한 사이즈의 공을 겹겹이 배치해서 속도의 차이를 두었습니다.",
-        "url": "https://noc-sigma.vercel.app/chapter/3",
-        "git": "https://github.com/outsung/noc",
-        "use": "카메라에게 손을 보여주세요."
-      },
-      "timer": {
-        "milliseconds": 60000
-      }
-    },
-    {
+      "sort": 1,
       "artist": {
         "name": "오준서",
         "site": "",
@@ -206,6 +110,7 @@
     },
 
     {
+      "sort": 1,
       "artist": {
         "name": "한태재",
         "site": "https://taejaehan.com/",
@@ -224,6 +129,7 @@
     },
 
     {
+      "sort": 1,
       "artist": {
         "name": "박민욱",
         "site": "https://parkminwook.com/",
@@ -241,6 +147,7 @@
       }
     },
     {
+      "sort": 1,
       "artist": {
         "name": "박민욱",
         "site": "https://parkminwook.com/",
@@ -258,6 +165,7 @@
       }
     },
     {
+      "sort": 1,
       "artist": {
         "name": "박민욱",
         "site": "https://parkminwook.com/",
@@ -272,6 +180,115 @@
       },
       "timer": {
         "milliseconds": 30000
+      }
+    },
+
+    {
+      "sort": 2,
+      "artist": {
+        "name": "최민성",
+        "site": "",
+        "qr": ""
+      },
+      "art": {
+        "title": "Faces of the Day",
+        "desc": "파티클을 사용해서 시계와 비, 바람 등을 표현했습니다. 가운데 표시된 시계와 비가 부딫히면 튕기면서 색이 바뀌고 바람과 부딫히면 시계가 살짝 밀리며 바람의 색이 변하게 만들었습니다. ",
+        "url": "https://faceoftheday.netlify.app/",
+        "git": "https://github.com/code137-5/faceofday/tree/main",
+        "use": "1분마다 날씨가 바뀌어요"
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "sort": 2,
+      "artist": {
+        "name": "서동이",
+        "site": "",
+        "qr": ""
+      },
+      "art": {
+        "title": "Stars and a fish",
+        "desc": "고래가 별 사이를 헤엄치는 모습을 표현했습니다. 현재 별 배경과 물고기 임시 모형만 구현된 상태입니다. 추가적으로 물고기의 형태를 잡고 머리의 방향 기준 몸통꼬리가 sin운동을 하도록 수정이 필요합니다.",
+        "url": "https://donzwhale.vercel.app/",
+        "git": "https://github.com/code137-5/nature-of-code-example",
+        "use": ""
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "sort": 2,
+      "artist": {
+        "name": "조종혁",
+        "site": "https://blog.naver.com/sni424",
+        "qr": "./qr/bumang_qr.png"
+      },
+      "art": {
+        "title": "Particle Weather",
+        "desc": "파티클로 표현한 사계절 계절이 바뀔때마다 모델링 및 배경을 변경하였습니다.",
+        "url": "https://particle-pi.vercel.app/",
+        "git": "https://github.com/sni424/particle",
+        "use": "왼쪽 상단 버튼을 클릭하면 소리를 on, off할 수 있습니다."
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "sort": 2,
+      "artist": {
+        "name": "정범환",
+        "site": "https://bumang.tistory.com/",
+        "qr": "./qr/bumang_qr.png"
+      },
+      "art": {
+        "title": "Truth In Pendulum",
+        "desc": "추가작업 예정) 각각 이미지를 Animated GIF로 만들고, 씬 별로 테마음악을 넣고, 펜들럼을 꾸밀 예정입니다. 여유가 된다면 씬 하나를 더 추가할 예정입니다. 풀스크린으로 바꾸겠습니다. 끊임없이 이어지는 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼.",
+        "url": "https://truth-in-pendulum.vercel.app/",
+        "git": "https://github.com/code137-5/truth-in-pendulum",
+        "use": "헤드폰을 사용하여 소리를 들어보세요"
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "sort": 2,
+      "artist": {
+        "name": "이상헌",
+        "site": "https://andydklee.com/",
+        "qr": "./qr/andy_qr.png"
+      },
+      "art": {
+        "title": "Imagen sonidos",
+        "desc": "인터렉티브 비쥬얼 사운드 아트 실시간 화상 이미지를 세그먼트화 하여 각 세그먼트의 색상을 소리로 변환, 시퀀서 방식으로 한열씩 화음으로 사운드 제너레이션",
+        "url": "https://image-sound.andydklee.com/",
+        "git": "https://github.com/code137-5/harmonograph-paint",
+        "use": "여러분의 모습이 소리로 변환됩니다. 헤드폰을 착용하여 들어보세요."
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
+    },
+    {
+      "sort": 2,
+      "artist": {
+        "name": "오준서",
+        "site": "",
+        "qr": "./qr/oh.png"
+      },
+      "art": {
+        "title": "Flow",
+        "desc": "Simplex Noise로 Flow Field를 만들어봤습니다. 다양한 사이즈의 공을 겹겹이 배치해서 속도의 차이를 두었습니다.",
+        "url": "https://noc-sigma.vercel.app/chapter/3",
+        "git": "https://github.com/outsung/noc",
+        "use": "카메라에게 손을 보여주세요."
+      },
+      "timer": {
+        "milliseconds": 60000
       }
     }
   ]
