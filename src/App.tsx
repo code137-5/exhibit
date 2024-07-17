@@ -13,15 +13,18 @@ import json from "./data.json";
 import { isMobile } from "react-device-detect";
 
 let artworkIdx = 0;
-const urlPath = location.pathname;
+const urlParams = new URL(window.location.href).searchParams;
+const hasPage = urlParams.has("page");
+const page = urlParams.get("page");
+
 let sortingNum = 0;
-if (urlPath.indexOf("page1") !== -1) {
+if (page === "1") {
   sortingNum = 1;
-} else if (urlPath.indexOf("page2") !== -1) {
+} else if (page === "2") {
   sortingNum = 2;
 }
 const filterData = json.data.filter((d) => {
-  if (urlPath === "/") {
+  if (!hasPage) {
     return true;
   }
   return d.sort === sortingNum;
