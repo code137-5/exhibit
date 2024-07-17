@@ -5,14 +5,14 @@
       "artist": {
         "name": "이하동",
         "site": "",
-        "qr": ""
+        "qr": "./qr/ha.png"
       },
       "art": {
-        "title": "Gradient Text",
-        "desc": "Gradient Text",
+        "title": "Spectral Typography",
+        "desc": "인터렉티브 웹디자인 3D 텍스트 설치물입니다. 사용자가 다양한 텍스트와 색상 팔레트를 선택하여 시각적으로 변형할 수 있습니다.",
         "url": "https://gradienttext.netlify.app/",
         "git": "https://github.com/code137-5/3d_gradient_text",
-        "use": ""
+        "use": "화면 왼쪽 상단의 입력 창에 원하는 텍스트를 입력하고 Update 버튼을 클릭하세요. 그래디언트 효과를 적용하려면 팔레트 번호를 선택하세요."
       },
       "timer": {
         "milliseconds": 30000
@@ -44,11 +44,11 @@
         "qr": "./qr/sol.png"
       },
       "art": {
-        "title": "Rain Drop Dance",
-        "desc": "Raindrop Dance(2024)는 장마에 영감을 받아 제작된 인터랙티브 아트 작품입니다. 흔들리는 텍스트와 빗방울 효과로 물속에 있는 듯한 감각을 주며, 터치나 마우스 인터랙션을 통해 텍스트를 직접 작성하고 색상을 변경할 수 있습니다.",
+        "title": "One Rainy Day",
+        "desc": "One Rainy Day(2024)는 장마에 영감을 받아 제작된 인터랙티브 아트 작품입니다. 흔들리는 텍스트와 빗방울 효과로 물속에 있는 듯한 감각을 줍니다.",
         "url": "https://raindrop-typo.netlify.app",
         "git": "https://github.com/SOL-MI/Creative_coding/tree/main/pixijs/kineticTypo_scrollV",
-        "use": "QR코드로 접속하여 텍스트를 수정할 수 있어요. 그리고 마우스 이동/터치를 해보세요!"
+        "use": "글자를 수정하고, 문질러 보세요! QR코드로 접속하여 모바일에서도 관람할 수 있어요."
       },
       "timer": {
         "milliseconds": 30000
@@ -73,42 +73,40 @@
       }
     },
     {
-      "sort": 1,
-      "artist": {
-        "name": "권은정",
-        "site": "https://www.instagram.com/intothejourneys/",
-        "qr": "./qr/cowproject.png"
-      },
-      "art": {
-        "title": "Cow Project",
-        "desc": "아직 윗 박스만 완성되어 있습니다. 아래 박스 만들고 버튼 부분 수정할 예정입니다. 아기소와 어미소가 각각 풀을 향해 이동하고, 도착하면 버튼이 뜹니다. 버튼을 누르면 직접 촬영한 아기소와 어미소의 실물 영상이 플레이 됩니다.",
-        "url": "https://cowproject2024.netlify.app/",
-        "git": "",
-        "use": "각각 키보드의 오른쪽 방향키, 왼쪽 방향키로 이동, 마우스로 가운데 버튼 클릭"
-      },
-      "timer": {
-        "milliseconds": 60000
-      }
+      "sort":1,
+        "artist":{
+            "name":"권은정",
+            "site":"https://www.instagram.com/intothejourneys/",
+            "qr":"./qr/kwon.png"
+        },
+        "art":{
+            "title":"Cow Project",
+            "desc":"아기소와 어미소를 각각 풀을 향해 이동시켜 주세요. 끝에 도착해 가운데 버튼을 누르면 직접 촬영한 아기소와 어미소의 실물 영상이 플레이 됩니다..",
+            "url":"https://cowproject2024.netlify.app/",
+            "use":"아기소는 화면의 왼쪽, 어미소는 오른쪽 버튼을 연속 클릭하여 이동, 가운데 버튼을 클릭하여 영상 재생"
+        },
+        "timer":{
+            "milliseconds" : 60000
+        }
     },
     {
       "sort": 1,
       "artist": {
         "name": "오준서",
         "site": "",
-        "qr": "./qr/oh.png"
+        "qr": "./qr/touch.png"
       },
       "art": {
         "title": "Touch",
-        "desc": "3D Text를 만들고 해당 텍스트를 클릭해 볼 수 있는 작품입니다.",
+        "desc": "3D Text를 만들어봤습니다. 해당 텍스트를 클릭해 모든 텍스트를 밀쳐내 보세요!",
         "url": "https://noc-sigma.vercel.app/art/touch",
         "git": "https://github.com/outsung/noc",
-        "use": "글자 또는 블럭을 클릭해보세요."
+        "use": "글자를 클릭해보세요. 다시하기를 클릭하시면 글자가 다시 떨어집니다."
       },
       "timer": {
         "milliseconds": 60000
       }
     },
-
     {
       "sort": 1,
       "artist": {
@@ -192,10 +190,10 @@
       },
       "art": {
         "title": "Faces of the Day",
-        "desc": "파티클을 사용해서 시계와 비, 바람 등을 표현했습니다. 가운데 표시된 시계와 비가 부딫히면 튕기면서 색이 바뀌고 바람과 부딫히면 시계가 살짝 밀리며 바람의 색이 변하게 만들었습니다. ",
+        "desc": "파티클을 사용해서 시계와 비, 바람 등을 표현했습니다. 가운데 표시된 시계와 비가 부딫히면 튕기면서 색이 바뀌고 바람과 부딫히면 시계가 살짝 밀리며 바람의 색이 변합니다.",
         "url": "https://faceoftheday.netlify.app/",
         "git": "https://github.com/code137-5/faceofday/tree/main",
-        "use": "1분마다 날씨가 바뀌어요"
+        "use": "날씨가 바뀌어요"
       },
       "timer": {
         "milliseconds": 30000
@@ -231,28 +229,28 @@
         "desc": "파티클로 표현한 사계절 계절이 바뀔때마다 모델링 및 배경을 변경하였습니다.",
         "url": "https://particle-pi.vercel.app/",
         "git": "https://github.com/sni424/particle",
-        "use": "왼쪽 상단 버튼을 클릭하면 소리를 on, off할 수 있습니다."
+        "use": "봄: 벚꽃, 여름: 비, 가을: 낙엽, 겨울: 눈"
       },
       "timer": {
-        "milliseconds": 30000
+        "milliseconds": 60000
       }
     },
     {
-      "sort": 2,
+      "sort": 1,
       "artist": {
         "name": "정범환",
-        "site": "https://bumang.tistory.com/",
-        "qr": "./qr/bumang_qr.png"
+        "site": "https://bumang.blog/",
+        "qr": "./qr/bum.png"
       },
       "art": {
         "title": "Truth In Pendulum",
-        "desc": "추가작업 예정) 각각 이미지를 Animated GIF로 만들고, 씬 별로 테마음악을 넣고, 펜들럼을 꾸밀 예정입니다. 여유가 된다면 씬 하나를 더 추가할 예정입니다. 풀스크린으로 바꾸겠습니다. 끊임없이 이어지는 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼.",
+        "desc": "끊임없이 이어지는 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼 속의 펜들럼.",
         "url": "https://truth-in-pendulum.vercel.app/",
-        "git": "https://github.com/code137-5/truth-in-pendulum",
-        "use": "헤드폰을 사용하여 소리를 들어보세요"
+        "git": "https://github.com/Bumang-Cyber/truth-in-pendulum",
+        "use": "헤드폰으로 소리를 들으며 감상해보세요."
       },
       "timer": {
-        "milliseconds": 30000
+        "milliseconds": 98000
       }
     },
     {
@@ -260,7 +258,7 @@
       "artist": {
         "name": "이상헌",
         "site": "https://andydklee.com/",
-        "qr": "./qr/andy_qr.png"
+        "qr": "./qr/andy.png"
       },
       "art": {
         "title": "Imagen sonidos",
@@ -270,7 +268,7 @@
         "use": "여러분의 모습이 소리로 변환됩니다. 헤드폰을 착용하여 들어보세요."
       },
       "timer": {
-        "milliseconds": 30000
+        "milliseconds": 60000
       }
     },
     {
@@ -278,18 +276,36 @@
       "artist": {
         "name": "오준서",
         "site": "",
-        "qr": "./qr/oh.png"
+        "qr": "./qr/flow.png"
       },
       "art": {
         "title": "Flow",
         "desc": "Simplex Noise로 Flow Field를 만들어봤습니다. 다양한 사이즈의 공을 겹겹이 배치해서 속도의 차이를 두었습니다.",
-        "url": "https://noc-sigma.vercel.app/chapter/3",
+        "url": "https://noc-sigma.vercel.app/art/hand/flow",
         "git": "https://github.com/outsung/noc",
         "use": "카메라에게 손을 보여주세요."
       },
       "timer": {
         "milliseconds": 60000
       }
-    }
+    },
+    {
+      "sort": 2,
+      "artist": {
+        "name": "오준서",
+        "site": "",
+        "qr": "./qr/pingpong.png"
+      },
+      "art": {
+        "title": "Pingpong",
+        "desc": "3D 물리엔진을 사용해 핑퐁을 구현했습니다. 손을 인식해 라켓을 움직일 수 있습니다. 가장 높은 점수를 얻어보세요!",
+        "url": "https://noc-sigma.vercel.app/art/hand/pingpong",
+        "git": "https://github.com/outsung/noc",
+        "use": "카메라에게 손을 보여주세요."
+      },
+      "timer": {
+        "milliseconds": 60000
+      }
+    },
   ]
 }

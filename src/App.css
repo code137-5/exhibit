@@ -21,11 +21,12 @@ body{
       /* border-spacing: 30px; */
       border: 1px solid #aaa;
       background-color: rgba(255,255,255,0.8);
-      td{
-        font-size: 20px;
-      }
       width: 400px;
       min-width: 400px;
+
+      td{
+        font-size: 20px;
+      };
       .countdown{
         text-align: center;
         font-size: 17px;
