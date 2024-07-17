@@ -211,7 +211,7 @@
         "desc": "고래가 별 사이를 헤엄치는 모습을 표현했습니다. 현재 별 배경과 물고기 임시 모형만 구현된 상태입니다. 추가적으로 물고기의 형태를 잡고 머리의 방향 기준 몸통꼬리가 sin운동을 하도록 수정이 필요합니다.",
         "url": "https://donzwhale.vercel.app/",
         "git": "https://github.com/code137-5/nature-of-code-example",
-        "use": ""
+        "use": "고래가 헤엄치는 것을 감상하세요"
       },
       "timer": {
         "milliseconds": 30000
@@ -283,7 +283,7 @@
         "desc": "Simplex Noise로 Flow Field를 만들어봤습니다. 다양한 사이즈의 공을 겹겹이 배치해서 속도의 차이를 두었습니다.",
         "url": "https://noc-sigma.vercel.app/art/hand/flow",
         "git": "https://github.com/outsung/noc",
-        "use": "카메라에게 손을 보여주세요."
+        "use": "카메라 앞에서 손을 보여주고 손을 천천히 움직여보세요."
       },
       "timer": {
         "milliseconds": 60000
@@ -301,7 +301,7 @@
         "desc": "3D 물리엔진을 사용해 핑퐁을 구현했습니다. 손을 인식해 라켓을 움직일 수 있습니다. 가장 높은 점수를 얻어보세요!",
         "url": "https://noc-sigma.vercel.app/art/hand/pingpong",
         "git": "https://github.com/outsung/noc",
-        "use": "카메라에게 손을 보여주세요."
+        "use": "카메라에게 손을 보여주고 탁구채를 조정해보세요."
       },
       "timer": {
         "milliseconds": 60000
