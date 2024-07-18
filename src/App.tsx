@@ -83,7 +83,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       artworkIdx++;
-      if (artworkIdx > filterData.length) {
+      if (artworkIdx >= filterData.length) {
         artworkIdx = 0;
       }
       setNextUrl(filterData[artworkIdx].art.url);
