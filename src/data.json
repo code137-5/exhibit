@@ -73,21 +73,21 @@
       }
     },
     {
-      "sort":1,
-        "artist":{
-            "name":"권은정",
-            "site":"https://www.instagram.com/intothejourneys/",
-            "qr":"./qr/kwon.png"
-        },
-        "art":{
-            "title":"Cow Project",
-            "desc":"아기소와 어미소를 각각 풀을 향해 이동시켜 주세요. 끝에 도착해 가운데 버튼을 누르면 직접 촬영한 아기소와 어미소의 실물 영상이 플레이 됩니다.",
-            "url":"https://cowproject2024.netlify.app/",
-            "use":"아기소는 화면의 왼쪽, 어미소는 오른쪽 버튼을 연속 클릭하여 이동, 가운데 버튼을 클릭하여 영상 재생"
-        },
-        "timer":{
-            "milliseconds" : 60000
-        }
+      "sort": 1,
+      "artist": {
+        "name": "권은정",
+        "site": "https://www.instagram.com/intothejourneys/",
+        "qr": "./qr/kwon.png"
+      },
+      "art": {
+        "title": "Cow Project",
+        "desc": "아기소와 어미소를 각각 풀을 향해 이동시켜 주세요. 끝에 도착해 가운데 버튼을 누르면 직접 촬영한 아기소와 어미소의 실물 영상이 플레이 됩니다.",
+        "url": "https://cowproject2024.netlify.app/",
+        "use": "아기소는 화면의 왼쪽, 어미소는 오른쪽 버튼을 연속 클릭하여 이동, 가운데 버튼을 클릭하여 영상 재생"
+      },
+      "timer": {
+        "milliseconds": 60000
+      }
     },
     {
       "sort": 1,
@@ -131,7 +131,7 @@
       "artist": {
         "name": "박민욱",
         "site": "https://parkminwook.com/",
-        "qr": ""
+        "qr": "./qr/minwook.png"
       },
       "art": {
         "title": "Dots",
@@ -149,14 +149,14 @@
       "artist": {
         "name": "박민욱",
         "site": "https://parkminwook.com/",
-        "qr": ""
+        "qr": "./qr/minwook.png"
       },
       "art": {
         "title": "Particles",
         "desc": "무수히 많은 입자(particle)가 하나의 그림을 그립니다. 그림이 변경될 때마다 각 입자는 자신의 새로운 자리를 찾아가며 그림을 완성합니다.",
         "url": "https://playfulweblab.com/infinite-slider-3",
         "git": "",
-        "use": "손가락을 터치 후 위아래로 길게 움직여 이미지를 변경해 보세요."
+        "use": "손가락을 터치 후 위아래로 움직여서 이미지를 변경해 보세요."
       },
       "timer": {
         "milliseconds": 30000
@@ -167,20 +167,19 @@
       "artist": {
         "name": "박민욱",
         "site": "https://parkminwook.com/",
-        "qr": ""
+        "qr": "./qr/minwook.png"
       },
       "art": {
         "title": "Wizard",
         "desc": "다양한 색상의 번개를 불러내는 마법사입니다. 주변 공기의 흐름마저 바꿔버리는 마법사를 만나보세요.",
         "url": "https://playfulweblab.com/wizard",
         "git": "",
-        "use": "손가락을 위아래로 움직여 번개 색상을 선택하고, 손가락을 오랫동안 누르고 있으면 에너지를 모아 분출할 수 있어요."
+        "use": "손가락을 터치 후 위아래로 움직여 번개 색상을 선택하고, 손가락을 오랫동안 누르고 있으면 에너지를 모아 분출할 수 있어요."
       },
       "timer": {
         "milliseconds": 30000
       }
     },
-
     {
       "sort": 2,
       "artist": {
