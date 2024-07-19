@@ -119,7 +119,7 @@
         "desc": "Sin&Cos Curve를 활용한 회전하는 커브텍스트입니다. 커브가 서로 맞물려 돌아가고 투시에 의해 원근감이 발생합니다. MODULABS Creative Coding LAB(137.5) 전시를 축하하며 무한히 회전하는 커브를 만들었습니다.",
         "url": "https://modulabs-code137-5-exhibition.netlify.app/",
         "git": "https://github.com/code137-5/r3f_curve",
-        "use": "터치해서 움직이면 커브를 다양한 각도에서 볼 수 있어요!"
+        "use": "터치해서 움직이면 새로운 텍스트가 만들어져요!"
       },
       "timer": {
         "milliseconds": 30000
