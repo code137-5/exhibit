@@ -305,6 +305,25 @@
       "timer": {
         "milliseconds": 60000
       }
+    },
+    {
+      "sort": 2,
+      "artist": {
+        "name": "서지상",
+        "site": "",
+        "qr": ""
+      },
+      "art": {
+        "title": "Finger painting",
+        "desc": "어릴때 했던 수채화 물감 장난을 코드로써 재현해봤습니다",
+        "url": "https://exhibition-paint.vercel.app/",
+        "git": "",
+        "use": "왼쪽 검지 손가락을 이용해 화면에 물감을 칠해보세요!"
+      },
+      "timer": {
+        "milliseconds": 30000
+      }
     }
+    
   ]
 }
